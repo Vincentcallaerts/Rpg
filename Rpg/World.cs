@@ -135,6 +135,7 @@ namespace Rpg
             map[myHero.X, myHero.Y] = myHero;
             
         }
+
         public void DrawWorld()
         {
             

@@ -20,13 +20,21 @@ namespace Rpg
                 
                 switch (SelectMenu("Beschikbaare Opties",world))
                 {
-                    case "Move Up": world.MoveUp();
+                    case "Move Up":
+                        world.MoveUp();
+
                         break;
-                    case "Move Down":world.MoveDown();
+                    case "Move Down":
+                        world.MoveDown();
+
                         break;
-                    case "Move Left":world.MoveLeft();
+                    case "Move Left":
+                        world.MoveLeft();
+
                         break;
-                    case "Move Right":world.MoveRight();
+                    case "Move Right":
+                        world.MoveRight();
+
                         break;
 
                     default:
